@@ -1,0 +1,16 @@
+{
+  "name": "Lorem.js",
+  "main": "lorem.min.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/oliver-moran/lorem.js",
+  "authors": [
+    "Oliver Moran <oliver@nth-iteration.ie>"
+  ],
+  "description": "A JavaScript library to generate placeholder text.",
+  "keywords": [
+    "lorem ipsum",
+    "placeholder",
+    "text"
+  ],
+  "license": "MIT"
+}

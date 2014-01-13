@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lorem.js example</title>
+<meta charset="utf-8">
+<script type="text/javascript" src="lorem.min.js"></script>
+</head>
+<body>
+
+<button onclick="javascript:doGetWord();">Lorem.getWord()</button>
+<button onclick="javascript:doGetSentence();">Lorem.getSentence()</button>
+<button onclick="javascript:doGetParagraph();">Lorem.getParagraph()</button>
+<label><input id="checkbox" type="checkbox"> Start with 'Lorem ipsum'</label>
+
+<p id="output"></p>
+
+<script type="text/javascript">
+
+var output = document.getElementById("output");
+var checkbox = document.getElementById("checkbox");
+
+function doGetWord(){
+	output.innerHTML = Lorem.getWord();
+}
+
+function doGetSentence(){
+	output.innerHTML = Lorem.getSentence(checkbox.checked);
+}
+
+function doGetParagraph(){
+	output.innerHTML = Lorem.getParagraph(checkbox.checked);
+}
+
+</script>
+
+</body>
+</html>
