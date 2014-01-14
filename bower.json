@@ -1,7 +1,7 @@
 {
   "name": "Lorem.js",
   "main": "lorem.min.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/oliver-moran/lorem.js",
   "authors": [
     "Oliver Moran <oliver@nth-iteration.ie>"
