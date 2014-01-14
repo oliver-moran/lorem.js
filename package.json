@@ -1,0 +1,22 @@
+{
+  "name": "lorem.js",
+  "version": "1.0.0",
+  "description": "A JavaScript library to generate placeholder text.",
+  "main": "lorem.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliver-moran/lorem.js.git"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "placeholder",
+    "text"
+  ],
+  "author": "Oliver Moran <oliver@nth-iteration.ie>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliver-moran/lorem.js/issues"
+  },
+  "homepage": "https://github.com/oliver-moran/lorem.js"
+}
