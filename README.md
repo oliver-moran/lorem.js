@@ -19,8 +19,8 @@ To start a sentence or paragraph with "Lorem ipsum":
 
 A settings object can be tweaked to generate more or less verbose output. The available settings (and their default values) are:
 
-    Lorem.settings.sentece.min // the min number of words in a sentence (default: 2)
-    Lorem.settings.sentece.max // the max number of words in a sentence (default: 10)
-    Lorem.settings.paragraph.min // the min number of words in a paragraph (default: 3)
-    Lorem.settings.paragraph.max // the max number of words in a paragraph (default: 10)
+    Lorem.settings.sentence.min // the min number of words in a sentence (default: 2)
+    Lorem.settings.sentence.max // the max number of words in a sentence (default: 10)
+    Lorem.settings.paragraph.min // the min number of sentences in a paragraph (default: 3)
+    Lorem.settings.paragraph.max // the max number of sentences in a paragraph (default: 10)
     Lorem.settings.comma.rate // the average number of mid-sentence words before a comma (default: 10)
