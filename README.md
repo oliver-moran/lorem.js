@@ -15,6 +15,10 @@ To start a sentence or paragraph with "Lorem ipsum":
     Lorem.getSentence(true); // Lorem ipsum... (sentence)
     Lorem.getParagraph(true); // Lorem ipsum... (paragraph)
 
+To use Lorem.js with Node.js:
+
+    var Lorem = require('lorem.js').Lorem;
+
 ## Settings ##
 
 A settings object can be tweaked to generate more or less verbose output. The available settings (and their default values) are:

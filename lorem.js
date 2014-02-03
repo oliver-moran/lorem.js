@@ -98,3 +98,6 @@ Lorem.settings = {
 })();
 
 
+if (exports) {
+	exports.Lorem = Lorem;
+}
